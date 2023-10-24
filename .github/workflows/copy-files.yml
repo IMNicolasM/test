@@ -1,0 +1,20 @@
+name: Copy Files from External Repository
+
+on:
+  push:
+    branches:
+      - main  # Cambia esto al nombre de tu rama principal
+
+jobs:
+  copy-files:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Copy Files
+        run: |
+          # Comando para copiar archivos desde el repositorio externo al repositorio Docusaurus
+          cp -r https://github.com/IMNicolasM/project-laravel-framework-docs/*.md ./docs/
+        working-directory: ${{ github.workspace }}
