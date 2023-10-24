@@ -66,7 +66,7 @@ const config = {
         name: "qsite",
         sourceBaseUrl: "https://github.com/IMNicolasM/qsite/raw/test/docs",
         outDir: "docs/vuejs/modules/Qsite",
-        documents: ["01-QsiteBoot.md", "03-QsiteConfig.md", "04-QsiteI18n.md", "05-QsiteLayouts.mdx", "06-QsitePlugins.md", "07-QsiteScripts.md", "08-QsiteCSS.md"],
+        documents: ["01-QsiteBoot.md"],
       },
     ],
     [
