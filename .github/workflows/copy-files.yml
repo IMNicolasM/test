@@ -16,5 +16,5 @@ jobs:
       - name: Copy Files
         run: |
           # Comando para copiar archivos desde el repositorio externo al repositorio Docusaurus
-          cp -r https://github.com/IMNicolasM/project-laravel-framework-docs/docs/ ./docs/
+          cp -r https://github.com/IMNicolasM/project-laravel-framework-docs/tree/main/docs ./docs/
         working-directory: ${{ github.workspace }}
