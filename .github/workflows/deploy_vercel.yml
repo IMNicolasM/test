@@ -1,0 +1,15 @@
+name: Send POST to Vercel Deploy Hook
+
+on: workflow_dispatch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout código fuente
+        uses: actions/checkout@v2
+
+      - name: POST to Vercel Deploy Hook
+        run: |
+          curl -X POST https://vercel.com/docs/deployments/deploy-hooks
