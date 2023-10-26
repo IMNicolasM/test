@@ -58,29 +58,6 @@ const config = {
     ],
   ],
 
-  plugins: [
-    [
-      "docusaurus-plugin-remote-content",
-      {
-        // options here
-        name: "qsite",
-        sourceBaseUrl: "https://github.com/IMNicolasM/qsite/raw/test/docs",
-        outDir: "docs/vuejs/modules/Qsite",
-        documents: ["01-QsiteBoot.md"],
-      },
-    ],
-    [
-      "docusaurus-plugin-remote-content",
-      {
-        // options here
-        name: "qsite-components",
-        sourceBaseUrl: "https://github.com/IMNicolasM/qsite/raw/test/docs/Components",
-        outDir: "docs/vuejs/modules/Qsite/Components",
-        documents: ["01-404.mdx", "02-alertModal.mdx"],
-      },
-    ],
-  ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
