@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Base Quasar
 
 Documentation about the project [Base Quasar](https://github.com/imagina/basequasar-app) based on framework [Quasar](https://quasar.dev/) to work with API Laravel developed by [Imagina Colombia s.a.s](https://www.imaginacolombia.com/).
