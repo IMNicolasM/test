@@ -86,7 +86,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/VueJs/init',
+                to: '/docs/VueJs/tutorials/intro',
               },
             ],
           },
