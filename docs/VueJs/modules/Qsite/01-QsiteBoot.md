@@ -1,12 +1,12 @@
 # Qsite | Boot Files
-Here are the `boot` files according to `Quasar` [documentation](https://quasar.dev/quasar-cli/boot-files#introduction) to manage all boot actions of project. all these files already are included on  of project.
+Here are the `boot` files according to `Quasar` [documentation](https://quasar.dev/quasar-cli/boot-files#introduction) to manage all boot actions of project. all these files already are included on [quasar.conf](/docs/VueJs/configurations/otherconfig#quasarconf) of project.
 
 ## Core-Axios
 Configure all related with [axios](https://github.com/axios/axios) to the project:
 - **Set base Url**: Instance the base URL to all request used with axios. Then if exist `config.app.baseUrl` will be set it as base url to axios, otherwise it well be obtained from `window.location` to define this attribute.
 - **Response interceptors**: Intercep all responses from axios and do the following actions:
     - **401 Status**: Any response with this status, will be result on a redirect to `auth.logout` and close the current session.
-    - **data.messages**: Any response with this content having , Show a one or more alert message on project.
+    - **data.messages**: Any response with this content having [alert-format](/docs/VueJs/modules/QSite/QsitePlugins#alert), Show a one or more alert message on project.
 
 ## Core-Server-Side
 Request to backend the initial data to configure the project:
@@ -34,11 +34,11 @@ Instance a [vue-router event beforeEach](https://router.vuejs.org/guide/advanced
 - **goToNextRoute**: Change to next vue-route.
 
 ## Core-Components
-Instance every standard  from qsite as global vue-components .
+Instance every standard [project components](/docs/category/components) from qsite as global vue-components .
 
 ## Core-Helper
 Every helper instance here are available to call on Vue as `this.$pluginName`.
-- Instance every  on Vue.
+- Instance every [qsite plugins](/docs/VueJs/modules/QSite/QsitePlugins) on Vue.
 - Instance some [quasar-utilities](https://quasar.dev/quasar-utils/other-utils#introduction)
     - [$openUrl](https://quasar.dev/quasar-utils/other-utils#open-external-url)
     - [$uid](https://quasar.dev/quasar-utils/other-utils#generate-uid)
@@ -48,13 +48,10 @@ Every helper instance here are available to call on Vue as `this.$pluginName`.
     - [vueSignaturablePad](https://github.com/neighborhood999/vue-signature-pad)
 
 ## Core-I18n
-- Instance configuration to [quasar internationalization](https://quasar.dev/options/app-internationalization#introduction) from .
+- Instance configuration to [quasar internationalization](https://quasar.dev/options/app-internationalization#introduction) from [master-i18n](/docs/VueJs/modules/QSite/QsiteI18n).
 - Instance vue prototypes to help with translatable methods on Vue.
     - **$trc(num, lang)**: Currency
     - **$trn(num, type)**: Number
     - **$tr(key, params)**: Singular
     - **$trp(key, params)**: Plural
     - **$trd(date, params)**: Date. With extra parameter `fromUTC` transform the date from utc to local date before to format.
-
-## SWA
-Nuevo texto
