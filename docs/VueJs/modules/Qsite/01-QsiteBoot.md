@@ -34,7 +34,7 @@ Instance a [vue-router event beforeEach](https://router.vuejs.org/guide/advanced
 - **goToNextRoute**: Change to next vue-route.
 
 ## Core-Components
-Instance every standard [project components](/docs/VueJs/Components/) from qsite as global vue-components .
+Instance every standard [project components](/docs/VueJs/Components) from qsite as global vue-components .
 
 ## Core-Helper
 Every helper instance here are available to call on Vue as `this.$pluginName`.
