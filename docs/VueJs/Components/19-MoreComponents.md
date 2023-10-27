@@ -15,7 +15,7 @@ The `noResults` component is already included in [boot-core-components](/docs/Vu
 :::
 
 ## quickCard
-Render a quick card with entity information on the home page from every [main config module](/docs/VueJs/modules/intro#_config).
+Render a quick card with entity information on the home page from every [main config module](/docs/VueJs/modules/#_config).
 
 ## recursiveItem
 Recursive component to render a list of [q-items](https://quasar.dev/vue-components/list-and-list-items#qitem-api).
