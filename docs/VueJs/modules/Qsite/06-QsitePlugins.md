@@ -173,6 +173,6 @@ remember.async({
 ```
 
 ## CKEditorPLugins
-Contains the plugins code to [vue-ckeditor](https://ckeditor.com/docs/ckeditor4/latest/guide/dev_vue.html) and use it on [ckEditorComponent](/docs/VueJs/modules/QSite/Components/ckEditor)
+Contains the plugins code to [vue-ckeditor](https://ckeditor.com/docs/ckeditor4/latest/guide/dev_vue.html) and use it on [ckEditorComponent](/docs/VueJs/Components/ckEditor)
 
 - **collapsibleItem**: Plugin to add collapsable bootstrap item.
